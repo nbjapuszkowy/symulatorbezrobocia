@@ -1,0 +1,56 @@
+3.0.12 • Balans kradzieży i nowe tekstury • 13.09.2026
+Kradzież auta daje teraz trzy gwiazdki zamiast dwóch. Kradziony samochód musi stygnąć przez 90 sekund aktywnej gry, zanim Mirek przyjmie go na giełdzie, a wypłata spadła z 20% do 10% wartości. Legalne auta nadal są skupowane za 50%. Stare zapisy pozostają zgodne; samochody ukradzione przed aktualizacją nie dostają nowego oczekiwania.
+Asfalt, chodniki, tynki i trawa korzystają z map koloru, normalnych i chropowatości 1K z Poly Haven na licencji CC0. Dodano autorów do przewijanych creditsów i do pliku licencji. Zmniejszono przesunięcie dynamicznych cieni, aby przylegały do postaci i pojazdów. Napisy końcowe obliczają długość z zawartości, więc nie ucinają nowych autorów. Kacpiqx dopisany do testowania.
+
+3.0.11 • Dostawy i gwiazdki pościgu • 10.09.2026
+Dostawca Jedzenia w Ustawieniach → Rozrywka, domyślnie wyłączony. Jedna rzadka oferta co 4–8 minut aktywnej gry, stawka 5–15 zł i 5 sekund na przyjęcie klawiszem 1. Telefon zastąpiony panelem z mapą trasy, miejscem odbioru i adresem mieszkania. Dostawy z Groszka, Delikatesów i od Zdzisia obejmują wszystkie 14 bloków. Fizyczna paczka do odbioru klawiszem E, noszenie w rękach, przewóz w aucie i zapłata u właściwego lokatora. Zapis zlecenia i czasu ofert; stare przyjęte kursy pozostają do ukończenia.
+Pięć gwiazdek pościgu, dwie po kradzieży. Policja ściga pieszo pieszego, radiowozem kierowcę. Radiowóz porusza się po drogach; po wyjściu z auta może wysiąść załoga. Utrata pościgu wymaga zerwania widoczności i oddalenia się. Policja szuka ostatniej widzianej pozycji zamiast znać miejsce ukrycia. Zbliżenie do patrolu może ponownie ujawnić nierozliczoną kradzież.
+Mirek płaci 20% ceny za kradzione auto i 50% za legalne. Zatrzymanie zabiera niesprzedane kradzione auto i faktyczny zarobek z jego sprzedaży, najwyżej do salda; bez więzienia i ujemnych pieniędzy. Rozliczona kradzież nie jest naliczana ponownie.
+Hamowanie ruchu według rzeczywistego pasa i odstępu, kolejka pierwszeństwa na skrzyżowaniach oraz światła hamowania. Samochód na przeciwnym pasie i gracz na chodniku nie powodują pozornego zatrzymania. Wszystkie auta są stale symulowane. Tekstury asfaltu, chodników, tynków i trawy z mipmapami oraz wygładzone tekstury aut. Poprawiony układ HUD: dostawa, gwiazdki, mapa i prędkość. Zachowane aktualizacje przy starcie, pytanie Tak/Nie o certyfikat i zgodność zapisów.
+
+3.0.10 • Samodzielna gra • 09.09.2026
+Samodzielny EXE z pelna gra i wbudowanymi zasobami. Jedno pytanie Tak/Nie o zaufanie certyfikatowi developera; odmowa nie zmienia magazynu certyfikatow. Informacje w menu z orientacyjnymi wymaganiami sprzetowymi. Zachowano sprawdzanie wersji przy starcie i zgodnosc zapisow.
+
+3.0.9 • Aktualizacje i źródła • 09.09.2026
+Usunięto sygnalizację samochodową i pieszą oraz mandaty za czerwone światło. Pasy, kolizje, ustępowanie pieszym i pościgi za kradzież pozostają. Starszy zapis usuwa pościg wynikający wyłącznie z czerwonego światła. Gra nazywa się Updater.exe. Każde uruchomienie sprawdza aktualną wersję w publicznym pliku na Google Drive; nowa wersja daje odnośnik do instalatora. Brak internetu nie blokuje gry. Kod gry i instalatora udostępniono na MIT z plikami Zbuduj.bat.
+
+3.0.8 • Samochody i policja • 07.09.2026
+Aktualizacja źródeł po wydaniu EXE: rzeczywiste wnętrza wszystkich 14 bloków w świecie gry. Otwierane drzwi wejściowe, korytarze, schody ze spocznikami i cztery mieszkania na każdym piętrze. Wejście i wyjście pieszo; schody zastępują teleport i menu windy. Zapis drzwi i pozycji na piętrze; jednorazowe przeniesienie starych zapisów wnętrz na odpowiednią klatkę. Rozsunięcie nakładających się bloków oraz poprawione oznaczenia na mapie.
+Oferty w telefonie: jedna wspólna pula na 120 sekund aktywnej gry, licznik do odświeżenia i komunikat o nowych ofertach. Przyjęta oferta znika do następnej puli; zakończenie, anulowanie i ponowne wczytanie nie losują kolejnej. Rotacja dostaw obejmuje wszystkie bloki, także na telefonie klawiszowym. Zapis puli i czasu odświeżenia.
+E przy kilku dostępnych interakcjach otwiera listę wyboru, również dla odbioru pasażera i wysiadania z auta.
+Sygnalizacja samochodowa i piesza na dziewięciu skrzyżowaniach; pasy na obwodnicy, linie zatrzymania, osobna faza dla pieszych i czas na opuszczenie jezdni. Auta hamują przed czerwonym i żółtym, piesi czekają na zielone. Wejście na czerwonym: mandat 100 zł; wjazd: 500 zł. Pobierana jest najwyżej dostępna gotówka. Wykroczenie rozpoczyna 5 minut pościgu; samo czerwone nie powoduje dożywotniego rozpoznawania za kradzież. Policja potrzebuje widoczności do zatrzymania i nie łapie przez ściany bloków.
+Pierwsze uruchomienie domyślnie w pełnym ekranie bez ramek. Zachowany wybór trybu ekranu gracza. Ta aktualizacja nie była kompilowana ani uruchamiana w testach.
+
+Kolejna aktualizacja kodu: saldo nie może być ujemne, również po karze policyjnej i odczycie starego zapisu. Wejścia do bloków, klatki, schody, numerowane piętra i umeblowane mieszkania z otwieranymi drzwiami. Telefon w slocie 1 w ekwipunku; na start model klawiszowy. Dostawy z Delikatesów, Groszka i od Zdzisia do wskazanych mieszkań oraz kursy Ubera samochodem. Odbiór paczki/pasażera i przekazanie u celu klawiszem E, zapłata za ukończenie, cel na mapie i zapis aktywnej pracy. Sklep Elektronix: smartfon za 299 zł i Pro za 799 zł, więcej ofert i stawki 115% / 135%.
+
+Aktualizacja po wydaniu EXE: pościgi trwają 5 minut. Po kradzieży policja rozpoznaje gracza do końca rozgrywki, również po sprzedaży auta i areszcie. Ponowne wykrycie rozpoczyna kolejny pościg. Zatrzymanie pobiera opłatę za auto najwyżej do posiadanego salda; pieniądze nie spadają poniżej zera. Rozpoznawanie jest zapisywane. Obracanie kamery w aucie myszą oraz osobny licznik km/h i oznaczenie wstecznego.
+
+Modele i tekstury PSX Style Cars autorstwa GGBotNet w ruchu, na parkingu, giełdzie i w radiowozie. Dźwięk silnika z tego samego pakietu.
+Jazda samochodem: gaz, hamowanie, wstecz, skręcanie, kolizje i kamera zza auta. Kradzież uruchamia 5 minut pościgu; piesze patrole wykrywają i ścigają gracza. Zatrzymanie: utrata kradzionego auta, opłata za auto bez ujemnego salda i 60 sekund pracy.
+Mirek Handlarz: zakup aut za 1000–5000 zł, sprzedaż własnych i kradzionych pojazdów. Zapis własności, pozycji i pościgu.
+Więcej połączonych dróg i obwodnica. Bloki w miejscu domków, komenda policji i giełda zaznaczone na mapie. Piesi korzystają z pasów, a ruch ustępuje przechodniom.
+Naprawa odczytu typów liczbowych ustawień, odzyskiwanie kopii zapasowej, zapis zmian po chwili bezczynności. Filmowe, przewijane creditsy z pauzą i autorem modeli. Changelog dostępny w menu.
+
+3.0.7 • Osiedle żyje • 06.09.2026
+Kaucja za szkło: 1,00 zł; PET i puszki: 0,50 zł. Etykieta 1 zł na szkle. Mnożniki ×1,5 i ×2 do kupienia dla konkretnego butelkomatu, zapisane osobno.
+10 aut na dwóch ulicach, odstępy między pojazdami i poprawione parkowanie. Teren za mapą: pola, drzewa, ogrodzenia oraz odległe góry.
+Radio: pełne MP3 Kaucja 67 — Disco Adamus i Salmonellalalalala — Bieda Beats. Usunięcie pierwszej, zbędnej wersji Bezdomnego Boya. Sobocix dopisany do testowania.
+Zmieniono numer wydania na 3.0.7. Wcześniejsze poprawki muzyki nie miały osobnych, potwierdzonych numerów wydań.
+
+1.2 • Rozbudowa osiedla • 06.09.2026
+Przezroczyste tło wokół logo. Szyfrowanie postępów z migracją starych zapisów, kopie zapasowe i autosave. Potwierdzanie nowej gry i recyklingu.
+Prawdziwe przesuwanie śmieci i 3–6 opakowań w koszu. Zakaz prostowania szkła; szmatka podczas czyszczenia i oznaczenia kaucji na modelach.
+Butelkomat: przeciąganie opakowań, animacja wciągania, skanowania i transportu do worka przez pełną sekundę.
+Radio z nazwami, przełączaniem, pauzą i głośnością; automatyczny PlayerMusic i własne MP3. Lotto z ręcznie zdrapywanymi zdrapkami. 15 osiągnięć, powiadomienia, nagrody i osiem zadań.
+Fontanna, opcja sprintu bez wody, ruch słońca i księżyca, lampy po 18:00. Poprawki kolizji, obiektów na jezdni, tekstur, cieni i rozdzielczości. Muzyka i autorzy w creditsach.
+
+1.1 • Życie na osiedlu • 05–06.09.2026
+Mniej luźnych butelek, przeszukiwanie koszy i odnawianie znalezisk. Logo gry. Warsztat przeniesiony do Pana Zdzisia.
+Woda za 1,50 zł do sprintu, po wypiciu zostaje butelka. Radio, buty, rękawice, latarka i samoobrona.
+Cykl dnia i nocy, nocne zaczepki z minigrą walki, sen na ławce z 30% szansą aresztu oraz minuta pracy. Kolizje pieszych i elementów mapy, zatrzymywanie aut przed graczem.
+Integracja Discord Rich Presence, osadzony moduł połączenia, ekran diagnostyczny i instrukcja natywnej nakładki. Poprawki zapisu i wyświetlania.
+
+1.0 • Pierwsza wersja • 05.09.2026
+Osiedle 3D z kamerą FPP, zbieraniem opakowań, plecakiem, czyszczeniem i prostowaniem PET oraz puszek.
+Butelkomaty, ekonomia kaucji, sklep z plecakami, narzędziami i transportem. Mapa, osiągnięcia, menu, ustawienia grafiki i dźwięku, muzyka oraz lokalny zapis.
+Pierwsza samodzielna wersja Windows EXE i pakiet źródeł Godot.

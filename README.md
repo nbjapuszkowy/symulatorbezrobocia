@@ -4,21 +4,24 @@ Gra 3D na Windows autorstwa Kubusek_Meow. Zbieraj opakowania, korzystaj z butelk
 
 ## Pobierz grę
 
-**[Przejdź do najnowszego wydania](https://github.com/nbjapuszkowy/symulatorbezrobocia/releases/latest)**
+**[Pobierz pełną grę — Updater.exe](https://github.com/nbjapuszkowy/symulatorbezrobocia/releases/latest/download/Updater.exe)**
 
-W sekcji Assets pobierz **Updater.exe**. To pełna, samodzielna gra z wbudowanymi zasobami. Przy aktualizacji zastąp poprzedni EXE i zachowaj foldery **Saves** oraz **PlayerMusic**.
+[Wydania, źródła i historia zmian](https://github.com/nbjapuszkowy/symulatorbezrobocia/releases/latest). EXE zawiera wszystkie zasoby. Przy aktualizacji zastąp poprzedni EXE i zachowaj foldery **Saves** oraz **PlayerMusic**.
 
-## Wersja 3.0.11
+## Wersja 3.0.12
 
-- Dostawca Jedzenia w Ustawieniach → Rozrywka: oferty 5–15 zł, przyjęcie klawiszem 1 w ciągu 5 sekund.
-- Widoczne paczki, mapa trasy i dostawy do mieszkań.
-- Gwiazdki pościgu i gubienie policji.
-- Poprawiony ruch samochodów, tekstury i układ interfejsu.
+- Kradzież: 3 gwiazdki, skup za 10% wartości i 90 sekund aktywnej gry przed sprzedażą u Mirka. Legalne auta: skup za 50%.
+- Nowe tekstury 1K asfaltu, chodników, tynków i trawy z mapami normalnych i chropowatości.
+- Mniejsze odsunięcie cieni od obiektów i pełna długość przewijanych creditsów.
+- Autorzy tekstur oraz Kacpiqx w testowaniu.
+- Sprawdzanie kolejnych aktualizacji przez GitHub. Gracze wersji 3.0.11 i starszych powinni jednorazowo pobrać 3.0.12 ręcznie.
 
-Windows 10/11, 64-bit. Wymagania i zasady gry opisano w pliku SPECYFIKACJA.md dołączonym do wydania.
+Windows 10/11, 64-bit. Wymagania i zasady gry: [SPECYFIKACJA.md](SPECYFIKACJA.md). Gra prosi o uprawnienia administratora. Opcjonalne zaufanie certyfikatowi developera można odrzucić.
 
-Gra prosi o uprawnienia administratora. Opcjonalne zaufanie certyfikatowi developera można odrzucić. Sprawdzanie aktualizacji wewnątrz wersji 3.0.11 nadal korzysta z Google Drive; wydania GitHub pobieraj z odnośnika powyżej.
+Źródła z plikiem **Zbuduj.bat** są w **SPB-Gra-OpenSource.zip** w wydaniu. Własny kod ma licencję MIT; materiały innych autorów mają osobne warunki w dołączonych plikach licencji.
 
 ## Autorzy
 
-Projekt: Kubusek_Meow. Programowanie i wsparcie: Codex. Testowanie: Kubusek_Meow i Sobocix. Modele samochodów, ich tekstury i dźwięk silnika: GGBotNet — PSX Style Cars (CC0 1.0). Muzyka: Bieda Beats i Disco Adamus. Pełne creditsy znajdują się w grze.
+Projekt: Kubusek_Meow. Programowanie i wsparcie: Codex. Testowanie: Kubusek_Meow, Sobocix, Kacpiqx. Modele aut, tekstury aut i dźwięk silnika: GGBotNet — PSX Style Cars (CC0 1.0). Muzyka: Bieda Beats i Disco Adamus.
+
+Tekstury Poly Haven na CC0: [Asphalt 01](https://polyhaven.com/a/asphalt_01) — Charlotte Baglioni i Dario Barresi; [Concrete Pavement](https://polyhaven.com/a/concrete_pavement) — Charlotte Baglioni; [Plastered Wall](https://polyhaven.com/a/plastered_wall) i [Sparse Grass](https://polyhaven.com/a/sparse_grass) — Amal Kumar. Pełne creditsy znajdują się w grze.
