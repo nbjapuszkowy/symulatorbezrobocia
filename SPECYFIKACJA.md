@@ -1,4 +1,4 @@
-# Symulator Polskiego Bezrobocia 3.0.12
+# Symulator Polskiego Bezrobocia 3.0.13
 
 Wydanie Windows z 13 września 2026. Gotowa gra znajduje się w samodzielnym `Updater.exe`; muzyka, modele i pozostałe zasoby są w środku. Można przenieść sam plik. Przy aktualizacji zachowaj istniejące foldery `Saves` i `PlayerMusic`.
 
@@ -30,13 +30,13 @@ Menu i pauza zatrzymują czas oferty. Pościg blokuje przyjmowanie nowych zlece�
 - Zatrzymanie następuje po 1,5 sekundy bliskiego kontaktu. W aucie policja musi zbliżyć się do powoli jadącego lub zatrzymanego pojazdu.
 - **Za kradzież nie ma więzienia.** Niesprzedane kradzione auto zostaje skonfiskowane. Policja odbiera wyłącznie zapisany zarobek ze sprzedaży kradzionych aut, najwyżej do dostępnego salda. Każdy taki zarobek rozlicza raz.
 - Przykład: sprzedaż za **200 zł** oznacza odebranie **200 zł**; jeśli pozostało 80 zł, policja odbierze 80 zł. Saldo nie spada poniżej zera. Za niesprzedane auto nie pobiera ceny sklepowej.
-- Mirek skupuje kradzione auta za **10%** wartości, a legalne za **50%**. Kradzione auto musi dodatkowo odczekać **90 sekund aktywnej gry** od kradzieży. Pięć cen zakupu: 1000, 1800, 2500, 3500 i 5000 zł. Sprzedaż wymaga przyprowadzenia auta, zgubienia pościgu i zakończenia oczekiwania.
+- Mirek skupuje kradzione auta za **5%** wartości, a legalne za **20%**. Każde auto musi dodatkowo odczekać **180 sekund aktywnej gry** od zakupu lub kradzieży. Pięć cen zakupu: 1000, 1800, 2500, 3500 i 5000 zł. Sprzedaż wymaga przyprowadzenia auta, zgubienia pościgu i zakończenia oczekiwania.
 
 Ruch obejmuje dziesięć stale symulowanych aut. Hamują według przeszkód na swoim pasie i odstępu, pokazują światła hamowania oraz kolejno opuszczają skrzyżowania. Gracz na chodniku i samochód na przeciwnym pasie nie blokują ich jazdy. Piesi przechodzą po pasach. Nadal nie ma sygnalizacji ani mandatów za czerwone światło.
 
 ## Grafika i pozostałe funkcje
 
-Asfalt, płyty chodnikowe, tynki i trawa mają mapy koloru, normalnych i chropowatości 1K z Poly Haven. Użyte zasoby CC0: **Asphalt 01** (Charlotte Baglioni, Dario Barresi), **Concrete Pavement** (Charlotte Baglioni), **Plastered Wall** i **Sparse Grass** (Amal Kumar). Mipmapy, filtrowanie anizotropowe i mapowanie trójpłaszczyznowe ograniczają migotanie oraz rozciąganie. Mniejszy bias cieni ogranicza ich widoczne odsunięcie od obiektów. Modele PSX Style Cars autorstwa **GGBotNet** zachowują styl gry; tekstury aut mają mipmapy i gładszy filtr. Autorzy są w przewijanych creditsach i plikach licencji.
+Asfalt, płyty chodnikowe, tynki i trawa mają mapy koloru, normalnych i chropowatości 1K z Poly Haven. Użyte zasoby CC0: **Asphalt 01** (Charlotte Baglioni, Dario Barresi), **Concrete Pavement** (Charlotte Baglioni), **Plastered Wall** i **Sparse Grass** (Amal Kumar). Mipmapy, filtrowanie anizotropowe i mapowanie trójpłaszczyznowe ograniczają migotanie oraz rozciąganie. Mniejszy bias cieni ogranicza ich widoczne odsunięcie od obiektów. Modele PSX Style Cars autorstwa **GGBotNet** zachowują styl gry; tekstury aut mają mipmapy i gładszy filtr. Piesi używają modelu **Man** autorstwa Polygonal Mind z Poly Pizza, CC0, z `Game/assets/people/CREDITS.txt`. Autorzy są w przewijanych creditsach i plikach licencji.
 
 Nowy układ HUD rozdziela dostawę, gwiazdki, prędkościomierz, minimapę i cel fabularny. Zachowane są: butelkomaty z przeciąganiem i sekundową animacją, kaucja 1 zł za szkło / 0,50 zł za PET i puszki, przeszukiwanie koszy, ulepszenia, dzień i noc, radio z `PlayerMusic`, Lotto, wnętrza i schody, zadania, osiągnięcia oraz zapis postępów. Areszt po spaniu na ławce pozostaje osobną mechaniką.
 

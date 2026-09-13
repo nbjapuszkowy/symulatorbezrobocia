@@ -1,3 +1,7 @@
+3.0.13 • Nerf samochodów i bardziej realistyczni piesi • 13.09.2026
+Sprzedaż legalnego auta spadła do 20% ceny, a kradzionego do 5%. Każdy kupiony lub ukradziony samochód musi odczekać 180 sekund aktywnej gry przed odkupem u Mirka; stary zapis zachowuje wcześniejsze auto bez sztucznego oczekiwania. Dzięki temu oddanie auta nie pozwala od razu kupować wszystkiego. Dodano jasne zasady odkupu w panelu giełdy i zachowano ochronę przed ujemnym saldem.
+Piesi korzystają z modelu „Man” autorstwa Polygonal Mind z Poly Pizza, z osadzoną teksturą na licencji CC0. Model ma kolizję CharacterBody3D i działający cykl chodu. Autor, źródło i licencja są w Game/assets/people/CREDITS.txt oraz LICENSE-POLYGONAL-MIND-CC0.txt. Testy wykonano także z wpisem Kacpiqx.
+
 3.0.12 • Balans kradzieży i nowe tekstury • 13.09.2026
 Kradzież auta daje teraz trzy gwiazdki zamiast dwóch. Kradziony samochód musi stygnąć przez 90 sekund aktywnej gry, zanim Mirek przyjmie go na giełdzie, a wypłata spadła z 20% do 10% wartości. Legalne auta nadal są skupowane za 50%. Stare zapisy pozostają zgodne; samochody ukradzione przed aktualizacją nie dostają nowego oczekiwania.
 Asfalt, chodniki, tynki i trawa korzystają z map koloru, normalnych i chropowatości 1K z Poly Haven na licencji CC0. Dodano autorów do przewijanych creditsów i do pliku licencji. Zmniejszono przesunięcie dynamicznych cieni, aby przylegały do postaci i pojazdów. Napisy końcowe obliczają długość z zawartości, więc nie ucinają nowych autorów. Kacpiqx dopisany do testowania.
