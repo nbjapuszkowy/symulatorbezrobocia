@@ -1,27 +1,15 @@
-# Symulator Polskiego Bezrobocia
+# Symulator Polskiego Bezrobocia — kod źródłowy 3.0.13
 
-Gra 3D na Windows autorstwa Kubusek_Meow. Zbieraj opakowania, korzystaj z butelkomatów, wykonuj dostawy i odkrywaj osiedle.
+Rozpakuj cały ZIP. Edytuj `Game/*.gd` albo otwórz `Game/project.godot` w dołączonym Godocie (`Tools/Godot/Godot_v4.5.1-stable_win64.exe`). Kliknij `Zbuduj.bat`. Gotowa gra: `Build/Updater.exe`.
 
-## Pobierz grę
+Dołączono Godot 4.5.1, konsolę i szablon eksportu Windows x64. Systemowy .NET Framework kompiluje małe narzędzia C#. BAT nie uruchamia testów. Zachowuje `Build/Saves` i `Build/PlayerMusic`.
 
-**[Pobierz pełną grę — Updater.exe](https://github.com/nbjapuszkowy/symulatorbezrobocia/releases/latest/download/Updater.exe)**
+Główne pliki: `Game/main.gd` — interfejs i rozgrywka; `world.gd` — mapa i modele pieszych; `state.gd` — postępy i ekonomia; `vehicle_system.gd` — samochody; `jobs.gd` — dostawy; `delivery_card.gd` — panel oferty; `pursuit_hud.gd` — gwiazdki; `surface_materials.gd` — tekstury; `update_check.gd` — aktualizacje. `Tools/DiscordBridge.cs` — Discord.
 
-[Wydania, źródła i historia zmian](https://github.com/nbjapuszkowy/symulatorbezrobocia/releases/latest). EXE zawiera wszystkie zasoby. Przy aktualizacji zastąp poprzedni EXE i zachowaj foldery **Saves** oraz **PlayerMusic**.
+Kod własny jest na MIT (LICENSE). Silnik, font i modele mają licencje w Licenses i Game/assets/cars/CREDITS.txt. MIT nie obejmuje nagrań muzycznych, logo ani materiałów innych autorów.
 
-## Wersja 3.0.12
+Prywatny klucz podpisu nie jest dołączony. Na koncie autora BAT podpisze EXE istniejącym certyfikatem. Bez klucza powstanie niepodpisany EXE. Gra zachowuje manifest UAC.
 
-- Kradzież: 3 gwiazdki, skup za 10% wartości i 90 sekund aktywnej gry przed sprzedażą u Mirka. Legalne auta: skup za 50%.
-- Nowe tekstury 1K asfaltu, chodników, tynków i trawy z mapami normalnych i chropowatości.
-- Mniejsze odsunięcie cieni od obiektów i pełna długość przewijanych creditsów.
-- Autorzy tekstur oraz Kacpiqx w testowaniu.
-- Sprawdzanie kolejnych aktualizacji przez GitHub. Gracze wersji 3.0.11 i starszych powinni jednorazowo pobrać 3.0.12 ręcznie.
+Aktualizacje: numer wydania ustaw w `Game/project.godot`, `Game/export_presets.cfg`, `Game/main.gd` i `Game/update_check.gd`. Zbuduj EXE i dodaj `Updater.exe` do nowego wydania w https://github.com/nbjapuszkowy/symulatorbezrobocia/releases. Po publikacji zmień `version` w `SPB-aktualizacje.json` w głównej gałęzi repozytorium. Od 3.0.12 gra sprawdza ten plik przy zwykłym starcie i proponuje otwarcie najnowszego wydania GitHub. W edytorze i diagnostyce nie odpytuje internetu. Gracze 3.0.12 i starszych muszą pobrać 3.0.13 ręcznie. Aktualizacja polega na zastąpieniu samego EXE z zachowaniem `Saves` i `PlayerMusic`.
 
-Windows 10/11, 64-bit. Wymagania i zasady gry: [SPECYFIKACJA.md](SPECYFIKACJA.md). Gra prosi o uprawnienia administratora. Opcjonalne zaufanie certyfikatowi developera można odrzucić.
-
-Źródła z plikiem **Zbuduj.bat** są w **SPB-Gra-OpenSource.zip** w wydaniu. Własny kod ma licencję MIT; materiały innych autorów mają osobne warunki w dołączonych plikach licencji.
-
-## Autorzy
-
-Projekt: Kubusek_Meow. Programowanie i wsparcie: Codex. Testowanie: Kubusek_Meow, Sobocix, Kacpiqx. Modele aut, tekstury aut i dźwięk silnika: GGBotNet — PSX Style Cars (CC0 1.0). Muzyka: Bieda Beats i Disco Adamus.
-
-Tekstury Poly Haven na CC0: [Asphalt 01](https://polyhaven.com/a/asphalt_01) — Charlotte Baglioni i Dario Barresi; [Concrete Pavement](https://polyhaven.com/a/concrete_pavement) — Charlotte Baglioni; [Plastered Wall](https://polyhaven.com/a/plastered_wall) i [Sparse Grass](https://polyhaven.com/a/sparse_grass) — Amal Kumar. Pełne creditsy znajdują się w grze.
+Zmiany i wymagania wydania: SPECYFIKACJA.md. Pełna historia: CHANGELOG.txt.
